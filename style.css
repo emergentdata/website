@@ -25,8 +25,7 @@ body {
 /* Content Width */
 /* Constrain the width of content and center it within full-width sections */
 .content {
-    width: 90%; /* Use 90% of the parent container's width */
-    max-width: 800px; /* Limit the width to a maximum of 800px */
+    max-width: 60%; /* Use 60% of the parent container's width */
     margin: 0 auto; /* Center content horizontally */
 }
 
@@ -39,7 +38,7 @@ body {
 
 /* Style the logo image */
 .logo-container img {
-    max-width: 500px; /* Restrict the maximum width of the logo */
+    max-width: 60%; /* Restrict the maximum width of the logo */
     margin-bottom: 20px; /* Add spacing below the logo */
 }
 
@@ -52,9 +51,9 @@ body {
 
 /* Style for the main title text */
 .main-title {
-    font-size: 4.3rem; /* Large font size for the title */
-    margin: 40px 0; /* Vertical margin around the title */
-    padding: 60px 3; /* Add padding around the title */
+    font-size: 3rem; /* Large font size for the title */
+    margin: 20px 0; /* Vertical margin around the title */
+    padding: 20px 3; /* Add padding around the title */
     font-weight: 100; /* Use a lighter font weight */
 }
 
@@ -97,8 +96,8 @@ body {
 /* Define the layout for individual services */
 .service-item {
     display: grid; /* Use CSS grid for layout */
-    grid-template-columns: 1fr 3fr; /* Split into two columns (1:3 ratio) */
-    gap: 50px; /* Add space between the columns */
+    grid-template-columns: 1fr 2fr; /* Split into two columns (1:3 ratio) */
+    gap: 40px; /* Add space between the columns */
     margin-bottom: 30px; /* Add spacing below each service */
 }
 
