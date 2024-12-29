@@ -133,11 +133,42 @@ body {
 }
 
 /* Contact Section */
+/* Define the appearance of the "Contact" section */
 .contact-container {
     background-color: #fff; /* White background */
     color: #000; /* Black text */
     padding: 40px 20px; /* Add padding for spacing inside the container */
     text-align: left; /* Ensure all text aligns to the left */
+}
+
+/* Style for the section header in the "Get in Touch" section */
+.contact-container .section-header {
+    font-size: 2.7rem; /* Font size for the header */
+    font-weight: 400; /* Thinner font weight */
+    margin-bottom: 40px; /* Add spacing below the header */
+    margin-top: 40px; /* Add spacing above the header */
+}
+
+/* Style for the contact subtitle */
+.contact-subtitle {
+    font-size: 1.2rem; /* Font size for the subtitle */
+    margin-bottom: 40px; /* Add spacing below the subtitle */
+    line-height: 1.6; /* Increase line height for readability */
+    max-width: 800px; /* Constrain the width for better readability */
+    margin-left: 0; /* Align text to the left */
+}
+
+/* Style for the contact links */
+.contact-info a {
+    color: #000; /* Black text color */
+    text-decoration: none; /* Remove underline styling */
+    font-size: 1.2rem; /* Font size for the links */
+    display: inline-block; /* Ensure proper alignment as a block element */
+}
+
+/* Hover effect for contact links */
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Mobile Styles: Scale Down for Smaller Screens */
