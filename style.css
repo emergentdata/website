@@ -96,7 +96,7 @@ body {
 /* Define the layout for individual services */
 .service-item {
     display: grid; /* Use CSS grid for layout */
-    grid-template-columns: 1fr 2fr; /* Split into two columns (1:3 ratio) */
+    grid-template-columns: 1fr 1fr; /* Split into two columns (1:3 ratio) */
     gap: 40px; /* Add space between the columns */
     margin-bottom: 30px; /* Add spacing below each service */
 }
@@ -132,9 +132,7 @@ body {
     margin-left: 0; /* Align the divider to the left */
 }
 
-
 /* Contact Section */
-/* Define the appearance of the "Contact" section */
 .contact-container {
     background-color: #fff; /* White background */
     color: #000; /* Black text */
@@ -142,33 +140,37 @@ body {
     text-align: left; /* Ensure all text aligns to the left */
 }
 
-/* Style for the section header in the "Get in Touch" section */
-.contact-container .section-header {
-    font-size: 2.7rem; /* Font size for the header */
-    font-weight: 400; /* Thinner font weight */
-    margin-bottom: 40px; /* Add spacing below the header */
-    margin-top: 40px; /* Add spacing above the header */
-}
+/* Mobile Styles: Scale Down for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 80%; /* Scale everything down to 80% */
+    }
 
-/* Style for the contact subtitle */
-.contact-subtitle {
-    font-size: 1.2rem; /* Font size for the subtitle */
-    margin-bottom: 40px; /* Add spacing below the subtitle */
-    line-height: 1.6; /* Increase line height for readability */
-    max-width: 800px; /* Constrain the width for better readability */
-    margin-left: 0; /* Align text to the left */
-}
+    .main-title {
+        font-size: 3rem; /* Reduce title size */
+    }
 
-/* Style for the contact links */
-.contact-info a {
-    color: #000; /* Black text color */
-    text-decoration: none; /* Remove underline styling */
-    font-size: 1.2rem; /* Font size for the links */
-    display: inline-block; /* Ensure proper alignment as a block element */
-}
+    .about-container {
+        font-size: 1rem; /* Reduce about section font size */
+    }
 
-/* Hover effect for contact links */
-.contact-info a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
+    .services-container .section-header {
+        font-size: 2rem; /* Reduce header size */
+    }
 
+    .service-left h3 {
+        font-size: 1.2rem; /* Scale down service titles */
+    }
+
+    .service-right p {
+        font-size: 1rem; /* Scale down service descriptions */
+    }
+
+    .contact-container .section-header {
+        font-size: 2rem; /* Reduce contact header size */
+    }
+
+    .contact-subtitle {
+        font-size: 1rem; /* Scale down subtitle font size */
+    }
+}
