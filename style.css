@@ -25,7 +25,7 @@ body {
 /* Content Width */
 /* Constrain the width of content and center it within full-width sections */
 .content {
-    max-width: 60%; /* Use 60% of the parent container's width */
+    max-width: 50%; /* Use 60% of the parent container's width */
     margin: 0 auto; /* Center content horizontally */
 }
 
@@ -38,7 +38,7 @@ body {
 
 /* Style the logo image */
 .logo-container img {
-    max-width: 80%; /* Restrict the maximum width of the logo */
+    max-width: 60%; /* Restrict the maximum width of the logo */
     margin-bottom: 20px; /* Add spacing below the logo */
 }
 
@@ -64,14 +64,13 @@ body {
     color: #000; /* Black text color */
     font-size: 1.2rem; /* Slightly larger font size */
     line-height: 1.8; /* Increase line height for readability */
-    text-align: center; /* Center align text horizontally */
     margin-top: 40px; /* Add spacing below the header */
+    padding: 40px 0; /* Add padding around the section */
 }
 
 /* Style paragraphs within the "About" section */
 .about-container p {
     margin-bottom: 40px; /* Add spacing between paragraphs */
-    max-width: 750px; /* Constrain the width of paragraphs */
     margin-left: auto; /* Center the paragraph horizontally */
     margin-right: auto; /* Center the paragraph horizontally */
 }
