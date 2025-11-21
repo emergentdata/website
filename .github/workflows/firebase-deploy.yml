@@ -28,4 +28,4 @@ jobs:
       - name: Deploy to Firebase
         run: |
           npm install -g firebase-tools
-          firebase deploy --project emergent-data-website-258025 --token ${{ secrets.FIREBASE_TOKEN }} --non-interactive
+          firebase deploy --project emegent-data-website-258025 --token ${{ secrets.FIREBASE_TOKEN }} --non-interactive
